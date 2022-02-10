@@ -26,7 +26,7 @@ minimum = min(skewlist)
 
 for i in range(0, len(skewlist)):
     if(skewlist[i] == minimum):
-        msg = msg + str(i) + " "
+        msg = msg + str(i + 1) + " "
 
 msg = msg[:-1]
 writer.write(msg)
